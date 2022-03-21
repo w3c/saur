@@ -1,5 +1,7 @@
 
-# Specification 'saur'
+# Synchronization Accessibility User Requirements
 
-This is the repository for saur. You're welcome to contribute! Let's make the Web rock our socks
-off!
+This is the repository for *Synchronization Accessibility User Requirements*, maintained by the [Research Questions Task Force](https://www.w3.org/WAI/APA/task-forces/research-questions/) of the [Accessible Platform Architectures Working Group](https://www.w3.org/WAI/APA/).
+
+Contributions are welcome, including new GitHub issues or pull requests.
+
