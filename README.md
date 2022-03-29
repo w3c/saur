@@ -5,3 +5,5 @@ This is the repository for *Synchronization Accessibility User Requirements*, ma
 
 Contributions are welcome, including new GitHub issues or pull requests.
 
+Latest editor's draft: https://w3c.github.io/saur/
+
