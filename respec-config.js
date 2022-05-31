@@ -39,6 +39,12 @@ var respecConfig = {
 	
 	// editors, add as many as you like
 	// only "name" is required
+	authors: 	    [{
+		name: "Steve Noble",
+		company: "Pearson",
+		companyURI: "https://www.pearson.com/",
+		w3cid: 81519
+	    }],
 	editors: [
 	    {
 		name: "Steve Noble",
