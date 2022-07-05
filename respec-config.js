@@ -21,7 +21,7 @@ var respecConfig = {
 	
 	// if you wish the publication date to be other than today, set this
 	//publishDate:  "2014-12-11",
-	copyrightStart:  "2021",
+	copyrightStart:  "2022",
 	license: "w3c-software-doc",
 	
 	// if there is a previously published draft, uncomment this and set its YYYY-MM-DD date
@@ -39,39 +39,37 @@ var respecConfig = {
 	
 	// editors, add as many as you like
 	// only "name" is required
-	authors: 	    [{
-		name: "Steve Noble",
-		company: "Pearson",
-		companyURI: "https://www.pearson.com/",
-		w3cid: 81519
-	    }],
+
 	editors: [
 	    {
 		name: "Steve Noble",
 		company: "Pearson",
-		companyURI: "https://www.pearson.com/",
+		mailto: "steve.noble@pearson.com",
 		w3cid: 81519
 	    },
 	    {
 		name: "Jason White",
-		url: "http://www.ets.org/",
+
 		company: "Educational Testing Service",
-		companyURI: "http://www.ets.org/",
+		mailto: "jjwhite@ets.org",
 		w3cid: 74028
 	    },
 	    	{
 			name: "Scott Hollier",
-			url: "http://www.hollier.info/",
+			company:"Invited Expert",
+			mailto: "scott@hollier.info",
 			w3cid: 43274
 			
 		},
 	    		{
 			name: "Janina Sajka",
-			url: "http://rednote.net/",
+			company:"Invited Expert",
+			mailto: "janina@rednote.net",
 			w3cid: 33688
 		},
 		{
 			name: "Joshue O'Connor",
+			company:"Invited Expert",
 		    mailto: "josh@interaccess.ie",
 			w3cid: 41218
 		},
