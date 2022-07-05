@@ -622,9 +622,8 @@ respecConfig.localBiblio = {
 	    "mitre-ipcaption": {
         "date": "23 March 2016",
         "title": "Internet Protocol Caption Telephone Service (IP CTS) – Summary of Phase 2 Usability Testing Results",
-        "publisher": "MITRE Corporation",
-      	"href": "https://ecfsapi.fcc.gov/file/10411287298464/MITRE%20Corporation%20Summary%20of%20Phase%202.pdf"
-    },
+        "publisher": "MITRE Corporation"
+	 },
 
 	"raur": {
 		"date": "25 May 2021",
