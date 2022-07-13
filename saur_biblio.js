@@ -668,6 +668,12 @@ respecConfig.localBiblio = {
 		]
 	},
 
+	"EBU-2018": {
+		"date": "22 May 2018",
+		"href": "https://tech.ebu.ch/publications/tech3380",
+		"publisher": "EBU",
+		"title": "TECH3380 EBU-TT-D Subtitling Distribution Format",
+	},
 
 	"short-name": {
 		"authors": [
