@@ -1,6 +1,6 @@
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 32.1.10">
+<meta name="generator" content="ReSpec 33.0.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -61,8 +61,6 @@ a.bibref{text-decoration:none}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
 cite .bibref{font-style:normal}
-code{color:#c63501}
-th code{color:inherit}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 .toc a,.tof a{text-decoration:none}
@@ -166,15 +164,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "apa",
   "github": "w3c/saur",
   "maxTocLevel": 4,
-  "publishISODate": "2022-07-13T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 13 July 2022"
+  "publishISODate": "2023-04-06T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 06 April 2023"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Synchronization Accessibility User Requirements</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-07-13">13 July 2022</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2023-04-06">06 April 2023</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -225,11 +223,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <p class="copyright">
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
     ©
-    2021-2022
+    2021-2023
     
-    <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
-    <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
-    <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C
+    <a href="https://www.w3.org/">World Wide Web Consortium</a>.
+    <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup>
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and
     <a rel="license" href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" title="W3C Software and Document Notice and License">permissive document license</a> rules apply.
@@ -276,7 +273,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   </p><p>
                   This document is governed by the
                   <a id="w3c_process_revision" href="https://www.w3.org/2021/Process-20211102/">2 November 2021 <abbr title="World Wide Web Consortium">W3C</abbr> Process Document</a>.
-                </p></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status of This Document</a></li><li class="tocline"><a class="tocxref" href="#introduction"><bdi class="secno">1. </bdi>Introduction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#media-synchronization"><bdi class="secno">1.1 </bdi>Media Synchronization</a></li><li class="tocline"><a class="tocxref" href="#media-synchronization-and-accessibility"><bdi class="secno">1.2 </bdi>Media Synchronization and Accessibility</a></li><li class="tocline"><a class="tocxref" href="#associated-publications"><bdi class="secno">1.3 </bdi>Associated Publications</a></li></ol></li><li class="tocline"><a class="tocxref" href="#issues-and-opportunities-identified-in-the-literature"><bdi class="secno">2. </bdi>Issues and Opportunities Identified in the Literature</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#lip-reading-use-case-synchronization"><bdi class="secno">2.1 </bdi>Lip Reading Use Case Synchronization</a></li><li class="tocline"><a class="tocxref" href="#caption-synchronization"><bdi class="secno">2.2 </bdi>Caption Synchronization</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#caption-rate"><bdi class="secno">2.2.1 </bdi>Caption Rate</a></li><li class="tocline"><a class="tocxref" href="#captions-in-live-media"><bdi class="secno">2.2.2 </bdi>Captions in Live Media</a></li><li class="tocline"><a class="tocxref" href="#caption-synchronization-thresholds"><bdi class="secno">2.2.3 </bdi>Caption Synchronization Thresholds</a></li></ol></li><li class="tocline"><a class="tocxref" href="#sign-language-interpretation-synchronization"><bdi class="secno">2.3 </bdi>Sign Language Interpretation Synchronization</a></li><li class="tocline"><a class="tocxref" href="#video-description-synchronization"><bdi class="secno">2.4 </bdi>Video Description Synchronization</a></li><li class="tocline"><a class="tocxref" href="#xr-environment-synchronization"><bdi class="secno">2.5 </bdi>XR Environment Synchronization</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>References</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informative-references"><bdi class="secno">A.1 </bdi>Informative references</a></li></ol></li></ol></nav>
+                </p></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status of This Document</a></li><li class="tocline"><a class="tocxref" href="#introduction"><bdi class="secno">1. </bdi>Introduction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#media-synchronization"><bdi class="secno">1.1 </bdi>Media Synchronization</a></li><li class="tocline"><a class="tocxref" href="#media-synchronization-and-accessibility"><bdi class="secno">1.2 </bdi>Media Synchronization and Accessibility</a></li><li class="tocline"><a class="tocxref" href="#associated-publications"><bdi class="secno">1.3 </bdi>Associated Publications</a></li></ol></li><li class="tocline"><a class="tocxref" href="#issues-and-opportunities-identified-in-the-literature"><bdi class="secno">2. </bdi>Issues and Opportunities Identified in the Literature</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#lip-reading-use-case-synchronization"><bdi class="secno">2.1 </bdi>Lip Reading Use Case Synchronization</a></li><li class="tocline"><a class="tocxref" href="#caption-synchronization"><bdi class="secno">2.2 </bdi>Caption Synchronization</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#caption-rate"><bdi class="secno">2.2.1 </bdi>Caption Rate</a></li><li class="tocline"><a class="tocxref" href="#captions-in-live-media"><bdi class="secno">2.2.2 </bdi>Captions in Live Media</a></li><li class="tocline"><a class="tocxref" href="#caption-synchronization-thresholds"><bdi class="secno">2.2.3 </bdi>Caption Synchronization Thresholds</a></li></ol></li><li class="tocline"><a class="tocxref" href="#sign-language-interpretation-synchronization"><bdi class="secno">2.3 </bdi>Sign Language Interpretation Synchronization</a></li><li class="tocline"><a class="tocxref" href="#video-description-synchronization"><bdi class="secno">2.4 </bdi>Video Description Synchronization</a></li><li class="tocline"><a class="tocxref" href="#xr-environment-synchronization"><bdi class="secno">2.5 </bdi>XR Environment Synchronization</a></li></ol></li><li class="tocline"><a class="tocxref" href="#acknowledgements"><bdi class="secno">A. </bdi>Acknowledgements</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#enabling-funders"><bdi class="secno">A.1 </bdi>Enabling Funders</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>References</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informative-references"><bdi class="secno">B.1 </bdi>Informative references</a></li></ol></li></ol></nav>
 	  <section id="introduction"><div class="header-wrapper"><h2 id="x1-introduction"><bdi class="secno">1. </bdi>Introduction</h2><a class="self-link" href="#introduction" aria-label="Permalink for Section 1."></a></div>
 	    
 	    <section id="media-synchronization"><div class="header-wrapper"><h3 id="x1-1-media-synchronization"><bdi class="secno">1.1 </bdi>Media Synchronization</h3><a class="self-link" href="#media-synchronization" aria-label="Permalink for Section 1.1"></a></div>
@@ -379,9 +376,17 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <div class="note" id="issue-container-generatedID-2"><div role="heading" class="ednote-title marker" id="h-ednote" aria-level="4"><span>Editor's note</span></div><p class="">The Task Force welcomes references to any research investigating synchronization issues specific to immersive environments, as well as more general comments on this section.</p></div>
 </section>
 </section>
+		
+<section class="appendix" id="acknowledgements"><div class="header-wrapper"><h2 id="a-acknowledgements"><bdi class="secno">A. </bdi>Acknowledgements</h2><a class="self-link" href="#acknowledgements" aria-label="Permalink for Appendix A."></a></div>
+  
+    <section id="enabling-funders"><div class="header-wrapper"><h3 id="a-1-enabling-funders"><bdi class="secno">A.1 </bdi>Enabling Funders</h3><a class="self-link" href="#enabling-funders" aria-label="Permalink for Appendix A.1"></a></div>
+      
+      <p>This work is supported by the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">EC-funded WAI-Guide Project</a>.</p>
+  </section>
+</section>
 
 
-<section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-references"><bdi class="secno">A. </bdi>References</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="informative-references"><div class="header-wrapper"><h3 id="a-1-informative-references"><bdi class="secno">A.1 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix A.1"></a></div>
+<section id="references" class="appendix"><div class="header-wrapper"><h2 id="b-references"><bdi class="secno">B. </bdi>References</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix B."></a></div><section id="informative-references"><div class="header-wrapper"><h3 id="b-1-informative-references"><bdi class="secno">B.1 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix B.1"></a></div>
     
     <dl class="bibliography"><dt id="bib-audio-live">[audio-live]</dt><dd>
       <cite>Audio description for live performances and audience participation</cite>. Di Giovanni, E. 2018. 
